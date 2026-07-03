@@ -1,0 +1,12 @@
+2026-07-03 17:24:02,923 | INFO | Validated user input successfully.
+2026-07-03 17:24:05,237 | INFO | MARKET ORDER | Symbol=BTCUSDT Side=BUY Qty=0.001
+2026-07-03 17:24:05,842 | INFO | SUCCESS : {'orderId': 18710054690, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ5f84b938aa0848046172e9', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783079645771}
+2026-07-03 17:24:39,962 | INFO | Validated user input successfully.
+2026-07-03 17:24:41,344 | INFO | LIMIT ORDER | Symbol=BTCUSDT Side=SELL Qty=0.001 Price=150000.0
+2026-07-03 17:24:41,815 | INFO | SUCCESS : {'orderId': 18710139587, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ7fcfe64949c4683bde2b38', 'price': '150000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783079681774}
+2026-07-03 17:24:54,106 | ERROR | Validation Error: Side must be BUY or SELL.
+2026-07-03 17:25:11,163 | ERROR | Validation Error: Price is required for LIMIT orders.
+2026-07-03 17:25:18,414 | ERROR | Validation Error: Only USDT-M Futures symbols are supported (e.g. BTCUSDT).
+2026-07-03 17:25:52,694 | INFO | Validated user input successfully.
+2026-07-03 17:25:54,384 | INFO | MARKET ORDER | Symbol=BTCUSDT Side=BUY Qty=0.001
+2026-07-03 17:25:54,599 | INFO | SUCCESS : {'orderId': 18710335403, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ8876ccb800004108038265', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783079754563}
